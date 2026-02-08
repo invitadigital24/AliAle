@@ -620,3 +620,10 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+.crece {
+    transform: scale(2);
+    transition: transform 0.5s ease;
+    z-index: 5;
+    left: 65% !important;
+}
